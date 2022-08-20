@@ -8,4 +8,4 @@ do
     Out = Out + ((int)Char.GetNumericValue(ar[i]));
     i++;
 } while (i <= ar.Length - 1);
-Console.WriteLine("" + Out);
+Console.WriteLine("Сумма всех чисел: " + Out);
